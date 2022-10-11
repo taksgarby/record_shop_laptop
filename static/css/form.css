@@ -1,23 +1,31 @@
+
 .form {
     display: flex;
     flex-direction: column;
-  
-    row-gap: 10px;
-    column-gap: 10px;
-    justify-content: space-around;
-    width: 300px;
-    margin: 0 auto;
-    font-size: 1.3rem;
+    border-radius: 3px;
+    padding: 1em;
+    width: 50rem;
+    padding-left: 15rem;
 }
 
-input, select, button {
-    font-size: 100%;
-    width : 100%;
-    padding: 10px;
-    margin: 10px;
-   
-  }
+.form-row {
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: darkslategray;
+}
 
-p {
+.form-row .not-found {
+    font-size: 1rem;
+    color: red;
+}
+
+/* .align-right {
     text-align: right;
+} */
+
+button {
+    background-color: orange;
+    align-self: center;
+    margin-left: 10rem;
+
 }

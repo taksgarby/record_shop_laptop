@@ -3,25 +3,52 @@ h1 {
     text-align: center;
     font-size: 3rem;
     color: #546e7a;
+    margin-bottom: 4rem;
 }
 
 h2 {
     text-align: center;
     font-size: 2rem;
     color: #f96d00;
+    margin-bottom: 3rem;
 }
 
-.record-list {
-    font-size: 1.5rem;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-around; */
-    padding-left: 8rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    border-style: solid;
-    text-align: left;
+h2 a {
+    color: #f96d00;
+    text-decoration: none;
+
 }
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #546e7a;
+}
+
+
+.list {
+    width: 50rem;
+    /* border: 1px solid grey; */
+    padding-left: 15rem;
+    padding-bottom: 3rem; 
+    align-self: left;
+    text-align: left;
+    font-size: 1.7rem;
+    color: #546e7a;
+  }
+  
+ 
+.artist-list {
+    width: 50rem;
+    /* border: 1px solid grey; */
+
+    padding-bottom: 3rem; 
+    align-self: left;
+    text-align: left;
+    font-size: 1.7rem;
+    color: #546e7a;
+  }  
+
 
 .stock-alert{
     color: red;
@@ -30,11 +57,14 @@ h2 {
 
 .show-details {
 
-  width: 300px;
-  border: 1px solid grey;
-  padding: 3rem;
-  align-self: center;
+  width: 50rem;
+  /* border: 1px solid grey; */
+  padding-left: 17rem;
+  padding-bottom: 3rem;
+  
+  align-self: left;
   text-align: left;
   font-size: 1.7rem;
   color: #546e7a;
 }
+

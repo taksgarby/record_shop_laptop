@@ -8,7 +8,8 @@ body {
 }
 
 .record .stock-count .alert {
-    color: red;
+
+  color: red;
 }
 
 nav{

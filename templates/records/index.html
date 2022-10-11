@@ -7,12 +7,12 @@
  
 {% for record in all_records %}
 
-<div class="record-list">
+<div class="list">
     <div class="title">
         Title: {{record.title}}
     </div>
     <div class="artist">
-         Artist: {{record.artist.first_name}} {{ record.artist.last_name }} 
+       Artist: {{record.artist.first_name}} {{ record.artist.last_name }} 
     </div>
     <div class="genre">
         Genre: {{ record.genre }}

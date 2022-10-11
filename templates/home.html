@@ -6,7 +6,7 @@
 
 <h1>Hello, Seaside Records!</h1>
 
-<div class="dot">
+<div class="choices">
     <div class="show-list"><a href="/records">Show List</a></div>
     <div class = "add-item"><a href="/add">Add Item</a></div>
 
@@ -17,7 +17,7 @@
 
 
 {% if record.stock_count < 3 %} 
-    <a href = "/records/{{ record.id }}">{{ record.title }} </a>is Low Stock !!<br>
+    <a href = "/records/{{ record.id }}"> &#9888; {{ record.title }} </a>is Low Stock !!<br>
     {% endif %}
 
     {% endfor %}

@@ -5,12 +5,12 @@ import repositories.record_repository as record_repository
 import repositories.artist_repository as artist_repository
 
 
-genre_blueprint= Blueprint("genre", __name__)
+genres_blueprint= Blueprint("genres", __name__)
 
-@genre_blueprint.route("/genre/add")
+@genres_blueprint.route("/genres/add")
 def add_genre():
-    return render_template("genre/add.html")
+    return render_template("genres/add.html")
 
-@genre_blueprint.route("/genre")
-def genre():
-    return render_template("genre/index.html")
+@genres_blueprint.route("/genres")
+def genres():
+    return render_template("genres/index.html")
