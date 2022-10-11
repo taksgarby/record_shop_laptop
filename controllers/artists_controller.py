@@ -23,3 +23,9 @@ def add_artist():
 def show_artist(id):
     return render_template('artists/show.html', 
     artist = artist_repository.select(id), all_records = record_repository.select_all())
+
+@artists_blueprint.route("/artists/<id>/edit")
+def edit_artist(id):
+    return render_template('artists/edit.html',
+                            artist = artist_repository.select(id),
+                            all_records = record_repository.select_all())
