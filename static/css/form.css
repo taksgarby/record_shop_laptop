@@ -1,0 +1,23 @@
+.form {
+    display: flex;
+    flex-direction: column;
+  
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: space-around;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 1.3rem;
+}
+
+input, select, button {
+    font-size: 100%;
+    width : 100%;
+    padding: 10px;
+    margin: 10px;
+   
+  }
+
+p {
+    text-align: right;
+}
